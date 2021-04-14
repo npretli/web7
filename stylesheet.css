@@ -15,7 +15,7 @@ body, html {
   font-family:Arial, Helvetica, sans-serif;
   color: #324253;
   font-size: 15px;
-  background-color: #00000;
+  background-color: #D4D4D3;
 }
 
 /* Responsive design techniques amended by Nicholas Pretli on December 4, 2020 */
@@ -166,14 +166,14 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
 .topnav {
   overflow: hidden;
-  outline: #000000 solid 5px;
+  outline: #7F7D7C solid 5px;
   background-color: #00000;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #000000;
+  color: #7F7D7C;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -202,7 +202,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: ##C0C0C0;
+  background-color: #7F7D7C;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -224,7 +224,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 }
 
 .dropdown-content a:hover {
-  background-color: ##C0C0C0;
+  background-color: #7F7D7C;
   color: black;
 }
 
@@ -369,7 +369,7 @@ by: Nicholas Pretli
   margin: 300px auto;
   box-shadow: 0px 0px 10px 2px grey;
   border: 10px solid red;
-  background-image:url("children-toronto-census-tract.jpg")
+  background-image:url("photos/children-toronto-census-tract.jpg")
 
 }
 
