@@ -64,6 +64,11 @@ body {
 .footer {
 	background-color: #543005;
 	height: 40px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 }
 
 .footer p {
