@@ -63,6 +63,7 @@ body {
 	width: 100%;
 	min-height: 50px;
 	background-color: #0F5C15;
+	padding: 0px;
 }
 
 .navbar a {
