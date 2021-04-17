@@ -22,12 +22,37 @@ body {
 	margin: 0px;
 }
 
+#pagetop {
+	background-color: #E1EBE2;
+	padding: 0px;
+}
+
+#pagetop div {
+	padding: 0px;
+}
+
 #logo {
 	display: block;
+	height: 100px;
+	width: 100px;
+	padding: 0px;
+	margin-left: calc(50vw - 75px);
+	margin-right: calc(50vw - 75px);
+}
+
+#pagenamediv {
+	position: relative;
+	min-height: 100px;
 	max-height: 150px;
-	max-width: 150px;
-	margin-left: auto;
-	margin-right: auto;
+}
+
+#pagename {
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);;
 }
 
 .outer-margin {
@@ -37,7 +62,7 @@ body {
 .navbar {
 	width: 100%;
 	min-height: 50px;
-	background-color: #543005;
+	background-color: #0F5C15;
 }
 
 .navbar a {
@@ -70,7 +95,7 @@ body {
 }
 
 .footer {
-	background-color: #543005;
+	background-color: #0F5C15;
 	height: 40px;
 	position: fixed;
 	left: 0;
