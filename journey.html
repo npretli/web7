@@ -10,37 +10,79 @@
 <!-- The following pages were referenced as they pertain to CSS: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
 
 <!-- Single external CSS document --> 
-	<link href="style.css" type="text/css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="style">
-	<meta charset="UTF-8">
-	<title>Navbar</title>
-</head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 
+<!-- Webpage Title
+By: ------- 
+December 7, 2020 -->
+<title>Family-Friendly Neighbourhoods in Toronto</title>
+</head>
 <body>
 
-<nav class="menu">
-  <ol>
-    <li class="menu-item"><a href="#0">Home</a></li>
-    <li class="menu-item"><a href="#0">About</a></li>
-    <li class="menu-item">
-      <a href="#0">Widgets</a>
-      <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">Big Widgets</a></li>
-        <li class="menu-item"><a href="#0">Bigger Widgets</a></li>
-        <li class="menu-item"><a href="#0">Huge Widgets</a></li>
-      </ol>
-    </li>
-    <li class="menu-item">
-      <a href="#0">Kabobs</a>
-      <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">Problem</a></li>
-        <li class="menu-item"><a href="#0">BBQ kabobs</a></li>
-        <li class="menu-item"><a href="#0">Summer kabobs</a></li>
-      </ol>
-    </li>
-    <li class="menu-item"><a href="#0">Contact</a></li>
-  </ol>
-</nav>
-	
+<!-- Site Header
+by: -----
+November 23, 2020 -->
+<div class="header">              
+    <div class="header-text">
+      <h1>Where are <i>Family-Friendly</i> Neighbourhoods in Toronto?</h1>      
+		<div class="logo">
+			<img src="photos/cornucopia-demo.JPG" alt="Company Logo" width="357px" height="359px" class="responsive">
+		</div>
+    </div>
+</div>
+<!-- Site Header End November 24, 2020 9:15 a.m. 
+Responsive navigation bar with relative links 
+By: ------
+December 4, 2020 -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="problem.html">Project Background</a>
+  <a href="journey.html">Our Journey</a>
+  <a href="challenges.html">Key Challenges</a>
+  <a href="learned.html">What We Learned</a>
+  <div class="dropdown">
+    <button class="dropbtn">Our Solutions
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="dash.html">ArcGIS Dashboards</a>
+      <a href="story.html">Story Map</a>
+  
+	  </div> 
+</div> 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!-- Responsive dropdown navigation menu
+By: ----- 
+December 7, 2020 -->
+<script src="javascript.js"></script>
+<!-- Preliminary information 
+By: ------ 
+December 7, 2020 -->
+  <div class = "mainpagetext">
+    <h2>The Kawartha Lakes Hiking Project</h2>
+    <p>This website is intended to showcase web solutions for child-friendly neighbourhoods in Toronto.</p>
+	<p>New paragraph. Filler text. More text here.</p>
+    <h2>Filler heading</h2>
+    <p>Some stuff.</p>
+    <h2>Extra</h2>
+    <p>More text.</p>
+  </div>
+  
+<!-- Image of friends enjoying the outdoors 
+By: ------ 
+December 7, 2020
+Second last image from bottom of main page sourced from https://chaudiereappalaches.com/en/travel-quebec/region-de-thetford/saint-joseph-de-coleraine/sentiers-pedestres-des-3-monts/hiking/ -->
+<div class="friends">
+<img src="photos/children-toronto-census-tract.JPG" alt="Toronto Map" width="912" height="504" class="responsive">
+</div>
+
+<!-- Footer message 
+By: ------ 
+December 7, 2020 -->
+  <div class="footer">
+  <p>Copyright © 2021 Web7, GEOM99, Fleming College.</p>
+  </div>
 </body>
 </html>
