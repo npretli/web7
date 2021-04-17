@@ -1,1 +1,93 @@
+* {
+	box-sizing: border-box;
+}
 
+/* Taken from https://www.w3schools.com/css/css_rwd_grid.asp to ensure the columns for responsive design work properly */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Combined from https://www.w3schools.com/css/css_rwd_grid.asp and https://www.w3schools.com/css/css_rwd_mediaqueries.asp  */
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  width: 100%;
+}
+
+body {
+	font-family:"Verdana", Arial, sans-serif;
+	color: rgb(78, 84, 90);
+	margin: 0px;
+}	
+
+.outer-margin {
+	padding: 0px;
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	background-color: #543005;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	font-family:"Verdana", Arial, sans-serif;
+	color: #FFFFFF99;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Active page is white and change inactive link color to white on hover */
+.navbar a.active, .navbar a:hover, .dropdown-content a:hover {
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+	display: none;
+  }
+  
+.section-style-2col {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pics {
+	width: 100%;
+}
+
+.footer {
+	background-color: #543005;
+	height: 40px;
+}
+
+.footer p {
+	margin: 0px;
+}
+
+/* Taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+Styles for small devices (phones and narrow tablets)
+All additional styles and the additional media queries are our own creation. */
+@media only screen and (min-width: 768px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+	.section-style-1col {
+		margin-left: 16.67%;
+		margin-right: 16.67%;
+		text-align: center;
+	}
