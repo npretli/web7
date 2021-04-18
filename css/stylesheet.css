@@ -23,7 +23,7 @@ body {
 }
 
 #pagetop {
-	background-color: #E1EBE2;
+	background-color: #3C81C6;
 	padding: 0px;
 }
 
@@ -65,7 +65,7 @@ body {
 .navbar {
 	width: 100%;
 	min-height: 50px;
-	background-color: #0F5C15;
+	background-color: #2B3743;
 	padding: 0px;
 }
 
@@ -101,7 +101,7 @@ body {
 }
 
 .footer {
-	background-color: #0F5C15;
+	background-color: #2B3743;
 	height: 40px;
 	position: fixed;
 	left: 0;
