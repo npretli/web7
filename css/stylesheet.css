@@ -1,5 +1,4 @@
-/* CSS template ideas taken from https://www.elegantthemes.com/documentation/extra/header-options/ */
-{
+* {
 	box-sizing: border-box;
 }
 
@@ -24,7 +23,7 @@ body {
 }
 
 #pagetop {
-	background-color: #3C81C6;
+	background-color: #E1EBE2;
 	padding: 0px;
 }
 
@@ -42,7 +41,6 @@ body {
 }
 
 #pagenamediv {
-    color: white;
 	position: relative;
     font-size: 20px;
     font-family: 'Trebuchet MS', sans-serif;
@@ -67,7 +65,7 @@ body {
 .navbar {
 	width: 100%;
 	min-height: 50px;
-	background-color: #2B3743;
+	background-color: #0F5C15;
 	padding: 0px;
 }
 
@@ -75,7 +73,7 @@ body {
 	float: left;
 	display: block;
 	font-family: 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 	color: #ffff;
 	text-align: center;
@@ -103,7 +101,7 @@ body {
 }
 
 .footer {
-	background-color: #2B3743;
+	background-color: #0F5C15;
 	height: 40px;
 	position: fixed;
 	left: 0;
