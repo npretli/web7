@@ -102,6 +102,8 @@ body {
 }
 
 .footer {
+	color: white;
+    	font-weight: bold;
 	background-color: #2B3743;
 	height: 40px;
 	position: fixed;
