@@ -16,6 +16,7 @@
   width: 100%;
 }
 
+/* Method for sticky footer taken from Mozilla's guide: https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers */
 body {
 	font-family: 'Trebuchet MS', sans-serif;
 	color: #393b39;
