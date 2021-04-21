@@ -54,9 +54,6 @@ body {
 	color: white;
 	text-align: center;
 	margin: 0;
-	position: absolute;
-	top: 50%;
-	transform: translate(0%, -50%);
 }
 
 .outer-margin {
@@ -148,4 +145,7 @@ All additional styles and the additional media queries are our own creation. */
 		text-align: left;
 		padding-left: 50px;
 		left: 0%;
+		position: absolute;
+		top: 50%;
+		transform: translate(0%, -50%);
 	}
