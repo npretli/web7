@@ -21,9 +21,6 @@ body {
 	font-family: 'Trebuchet MS', sans-serif;
 	color: #393b39;
 	margin: 0px;
-	min-height: 100vh;
-    	display: grid;
-    	grid-template-rows: auto auto auto 1fr;
 }
 
 #pagetop {
