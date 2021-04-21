@@ -92,7 +92,12 @@ body {
 .navbar .icon {
 	display: none;
   }
-  
+
+.section-style-1col {
+	margin: auto;
+	text-align: center;
+}
+
 .section-style-2col {
 	margin-left: auto;
 	margin-right: auto;
