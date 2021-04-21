@@ -102,6 +102,11 @@ body {
 	width: 100%;
 }
 
+.portrait {
+	width: 100%;
+	max-width: 300px;
+}
+
 .footer {
 	color: white;
     	font-weight: bold;
